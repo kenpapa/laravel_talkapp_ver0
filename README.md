@@ -27,16 +27,16 @@ Laravel: 5.3.28
 
 [2]ファイルを解凍しlaravel_talkapp_ver0-masterディレクトリに移動します。
 
-[3]下記コマンドを実行してvendorフォルダを用意します。
+[3]下記コマンドを実行してvendorフォルダを用意します。  
 composer install
 
 [4].env.exampleをコピーして.envファイルを用意します。
 ※このバージョンではDBは使用していませんので.envにDBを設定する必要はありません。
 
-[5].envファイルのAPP_KEYにアプリケーションキーを設定するため下記を実行します。
+[5].envファイルのAPP_KEYにアプリケーションキーを設定するため下記を実行します。  
 php artisan key:generate
 
-[6]サーバーを起動しhttp://localhost:8000でアクセス
+[6]サーバーを起動しhttp://localhost:8000でアクセス  
 php artisan serve
 
 ## ライセンス
